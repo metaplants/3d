@@ -19,14 +19,3 @@ def video2image(video_path, image_dir_path, skip_rate=10, show=False, write=True
                 plt.show()
         i += 1
     cap.release()
-
-
-if __name__ =="__main__":
-    args = {
-        "video_path": "/Users/higuchi/dev/Metaplants/3d/data/test.mp4",
-        "image_dir_path": "/Users/higuchi/dev/Metaplants/3d/data/test",
-        "skip_rate": 200,
-        "show": True,
-        "write": False,      
-    }
-    video2image(**args)
